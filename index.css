@@ -53,8 +53,8 @@ header {
 /*Navigation Section*/
 nav{
     font-size: 1.3rem; 
-    margin-top: 72px; 
-    margin-bottom: 30px;
+    margin-top: 64px; 
+    margin-bottom: 38px;
     /* background-color: rgb(27, 189, 40); */
 }
 
@@ -71,7 +71,7 @@ nav ul{
 nav ul li{
     display: inline-block; 
     text-decoration: none; 
-    width:  175px; 
+    width:  240px; 
    /* background-color: #ff0; */
     text-align: center;
     font-family: 'Literata', serif;
@@ -297,7 +297,7 @@ a:focus{
             text-align : center;
             line-height: .95rem; 
             letter-spacing : .1em;
-            margin-top: 30px;
+            margin-top: 10px;
             color: white; 
         }
 
