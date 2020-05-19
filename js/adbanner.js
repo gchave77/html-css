@@ -5,7 +5,7 @@ var thisAd = 0
 function rotate()
 { 
     "use strict";
-    var adImages = new Array("images/indexfeature1.jpg", "images/indexfeature2.jpg", "images/indexfeature3.jpg", "images/indexfeature4.jpg");
+    var adImages = new Array("assets/indexfeature1.jpg", "assets/indexfeature2.jpg", "assets/indexfeature3.jpg", "assets/indexfeature4.jpg");
 
     thisAd++;
     if (thisAd === adImages.length)
