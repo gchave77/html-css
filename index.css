@@ -27,16 +27,6 @@ footer{
     background-color: #fff ;
 }
 
-.surfboard{
-    margin-left: auto; 
-    margin-right : auto;
-    margin-top: 0px ; 
-    margin-bottom: 0px ;
-    width: 960px;
-    border-radius: 20%;
-    background-color: rgb(175, 149, 126) ;
-}
-
 .center{
     margin-left: auto; 
     margin-right: auto; 
@@ -46,15 +36,15 @@ footer{
 header { 
     margin : 0;
     padding: 0;
-    height: 170px;
+    height: 120px;
     background-color: rgb(12, 12, 12);
 }
 
 /*Navigation Section*/
 nav{
     font-size: 1.3rem; 
-    margin-top: 64px; 
-    margin-bottom: 38px;
+    margin-top: 44px; 
+    margin-bottom: 24px;
     /* background-color: rgb(27, 189, 40); */
 }
 
@@ -86,7 +76,7 @@ a:link{
 
 a:visited{
     text-decoration: none; 
-    color: rgb(14, 179, 230);
+    color: goldenrod;
     font-family: 'Literata', sans-serif;
 }
  
@@ -257,7 +247,7 @@ a:focus{
         font-weight: 500;
         font-size: 21px; 
         margin-bottom: 15px; 
-        color: black; 
+        color: red; 
         /* text-align: center;         */
     }
     
@@ -283,7 +273,6 @@ a:focus{
             font-family : 'Quicksand', sans-serif; 
             font-size: .9rem;
             font-weight: 400; 
-            /* padding : 5px;  */
             text-align : left;
             line-height: 1.2rem; 
             letter-spacing : .1em;
@@ -302,44 +291,6 @@ a:focus{
         }
 
 
-/* Attraction Information */
-
-.attractiondesc {
-    font-family: 'Quicksand', sans-serif;
-    padding-left: 40px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 0px; 
-}
-
-.attractionname {
-    font-family: 'Quicksand', sans-serif;
-    color: rgb(2, 53, 5);
-    font-size: 20px;
-}
-
-.attractioninfo ul {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    padding-left: 80px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 0px; 
-}
-
-.attractioninfo li {
-    list-style-image: url("../images/plumeriav1.jpg");
-    list-style-position: inside;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    text-align: left;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 0px; 
-}
-
 /* Form Section */
 
 h2.account {
@@ -350,29 +301,7 @@ h2.address {
     background-color: #05253b;
     color: #fff;
 }
-h2.public-profile {
-    background-color: #05253b;
-    color: #fff;
-}
-h2.authorization {
-    background-color: #05253b;
-    color: #fff;
-}
-h2.emails {
-    background-color: #05253b;
-    color: #fff;
-}
-legend {
-    background-color: #dedede;
-    border-top: 1px solid #d4d4d4;
-    border-bottom: 1px solid #d4d4d4;
-    -moz-box-shadow: 3px 3px 3px #ccc;
-    -webkit-box-shadow: 3px 3px 3px #ccc;
-    box-shadow: 3px 3px 3px #ccc;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    padding: 0.3em 1em;
-}
+
 fieldset {
     font-family: 'Quicksand', sans-serif;
     background-color: white;
@@ -383,6 +312,7 @@ fieldset {
     padding: 0 10px;
     color: black;
 }
+
 .form {
     background-color: #fff;
     list-style: none;
@@ -430,35 +360,7 @@ textarea {
     margin: 12px;
     padding: 8px;
 }
-.radios {
-    background: none;
-    display: inline;
-    margin-left: 350px;
-    margin-right: auto;
-    padding: 0;
-}
-.radios ul {
-    border: none;
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.radios li {
-    margin: 0;
-    display: inline-block;
-}
-.radios label {
-    margin-right: 25px;
-    width: auto;
-}
-.radios input {
-    margin-top: 3px;
-}
-.checkboxes label {
-    text-align: left;
-    width: 575px;
-}
+
 button * {
     vertical-align: middle;
 }
